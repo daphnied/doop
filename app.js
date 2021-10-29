@@ -4,11 +4,11 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send("Welcome to the home page babe");
+    res.send("Hey I think you're really sexy - Welcome to the home page babe");
 })
 
 
-const port = process.env.port || 3000;
+const port = process.env.port;
 app.listen(port, () => {
     console.log("wazszszappp");
 });
